@@ -1,0 +1,102 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background and text colors */
+body {
+    background-color: #0b0e11;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #131a1d;
+    padding: 10px 0;
+}
+
+.logo {
+    color: #37d3ff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #37d3ff;
+}
+
+/* Style sections */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style projects */
+.project {
+    background-color: #1d2528;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #37d3ff;
+}
+
+.project p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style footer */
+footer {
+    background-color: #131a1d;
+    text-align: center;
+    padding: 20px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+.pp {
+    font-size: 14px;
+}
+
+/* Add more futuristic styles as needed */
